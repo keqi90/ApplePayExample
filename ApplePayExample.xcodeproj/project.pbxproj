@@ -7,22 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA93E4111C89666500BB962A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA93E40C1C89666500BB962A /* Main.storyboard */; };
+		AA93E4121C89666500BB962A /* ViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = AA93E40E1C89666500BB962A /* ViewControllerOne.m */; };
+		AA93E4131C89666500BB962A /* ViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = AA93E4101C89666500BB962A /* ViewControllerTwo.m */; };
 		AABFF5121C8931CB0054082B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AABFF5111C8931CB0054082B /* main.m */; };
 		AABFF5151C8931CB0054082B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AABFF5141C8931CB0054082B /* AppDelegate.m */; };
-		AABFF5181C8931CB0054082B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABFF5171C8931CB0054082B /* ViewController.m */; };
-		AABFF51B1C8931CB0054082B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABFF5191C8931CB0054082B /* Main.storyboard */; };
 		AABFF51D1C8931CB0054082B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABFF51C1C8931CB0054082B /* Assets.xcassets */; };
 		AABFF5201C8931CB0054082B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABFF51E1C8931CB0054082B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA93E40C1C89666500BB962A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AA93E40D1C89666500BB962A /* ViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerOne.h; sourceTree = "<group>"; };
+		AA93E40E1C89666500BB962A /* ViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerOne.m; sourceTree = "<group>"; };
+		AA93E40F1C89666500BB962A /* ViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerTwo.h; sourceTree = "<group>"; };
+		AA93E4101C89666500BB962A /* ViewControllerTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTwo.m; sourceTree = "<group>"; };
 		AABFF50D1C8931CB0054082B /* ApplePayExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApplePayExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AABFF5111C8931CB0054082B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AABFF5131C8931CB0054082B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AABFF5141C8931CB0054082B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AABFF5161C8931CB0054082B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AABFF5171C8931CB0054082B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AABFF51A1C8931CB0054082B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AABFF51C1C8931CB0054082B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AABFF51F1C8931CB0054082B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AABFF5211C8931CB0054082B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,9 +63,11 @@
 			children = (
 				AABFF5131C8931CB0054082B /* AppDelegate.h */,
 				AABFF5141C8931CB0054082B /* AppDelegate.m */,
-				AABFF5161C8931CB0054082B /* ViewController.h */,
-				AABFF5171C8931CB0054082B /* ViewController.m */,
-				AABFF5191C8931CB0054082B /* Main.storyboard */,
+				AA93E40C1C89666500BB962A /* Main.storyboard */,
+				AA93E40D1C89666500BB962A /* ViewControllerOne.h */,
+				AA93E40E1C89666500BB962A /* ViewControllerOne.m */,
+				AA93E40F1C89666500BB962A /* ViewControllerTwo.h */,
+				AA93E4101C89666500BB962A /* ViewControllerTwo.m */,
 				AABFF51C1C8931CB0054082B /* Assets.xcassets */,
 				AABFF51E1C8931CB0054082B /* LaunchScreen.storyboard */,
 				AABFF5211C8931CB0054082B /* Info.plist */,
@@ -136,9 +141,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA93E4111C89666500BB962A /* Main.storyboard in Resources */,
 				AABFF5201C8931CB0054082B /* LaunchScreen.storyboard in Resources */,
 				AABFF51D1C8931CB0054082B /* Assets.xcassets in Resources */,
-				AABFF51B1C8931CB0054082B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,23 +154,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AABFF5181C8931CB0054082B /* ViewController.m in Sources */,
+				AA93E4121C89666500BB962A /* ViewControllerOne.m in Sources */,
 				AABFF5151C8931CB0054082B /* AppDelegate.m in Sources */,
 				AABFF5121C8931CB0054082B /* main.m in Sources */,
+				AA93E4131C89666500BB962A /* ViewControllerTwo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AABFF5191C8931CB0054082B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AABFF51A1C8931CB0054082B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AABFF51E1C8931CB0054082B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -298,6 +296,7 @@
 				AABFF5261C8931CB0054082B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
